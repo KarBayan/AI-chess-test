@@ -1,0 +1,9 @@
+[Event "ChatGPT vs ChatGPT"]
+[Site "Dr. Kar Bayan"]
+[Date "2025.05.07"]
+[Round "1"]
+[White "gpt-4.5-preview"]
+[Black "gpt-4.5-preview"]
+[Result "*"]
+
+1. e4 c5 2. Nf3 Nc6 3. Bb5 Nd4 4. Nxd4 cxd4 5. O-O a6 6. Be2 e5 7. Bc4 Nf6 8. d3 d5 9. exd5 Nxd5 10. Qf3 Be6 11. Re1 f6 12. Bxd5 Qxd5 13. Qxd5 Bxd5 14. f4 Bd6 15. fxe5 fxe5 16. Bf4 O-O 17. Bxe5 Rae8 18. Bg3 Bxg3 19. Rxe8 Rxe8 20. hxg3 Re1+ 21. Kf2 Rc1 22. Na3 Rxa1 23. b3 Rxa2 24. Nc4 Rxc2+ 25. Ke1 Bxc4 26. dxc4 Rxg2 27. g4 d3 28. g5 d2+ 29. Kd1 Rxg5 30. Kxd2 Rg3 31. Kc2 h5 32. b4 h4 33. c5 h3 34. b5 h2 35. bxa6 h1=Q 36. axb7 Qh2+ { white ignores check, makes illegal move b8=Q+, and checks black } *
