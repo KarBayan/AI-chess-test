@@ -1,7 +1,7 @@
 # AI chess test, May 2025
 ## Motivation
 
-I tried to play chess with ChatGPT in its UI, but it turned out to be problematic. ChatGPT does not carry the board's state; instead, it makes "story-based" deductions from the conversation history. It starts to alter position between moves and makes illegal moves around the 10th turn.
+I tried to play chess with ChatGPT in its UI, but it turned out to be problematic. ChatGPT does not carry the board's state;[^1] instead, it makes "story-based" deductions from the conversation history. It starts to alter position between moves and makes illegal moves around the 10th turn.
 
 ## Solution
 
@@ -21,4 +21,4 @@ I hoped to have a tournament between ChatGPT and Gemini via api calls, see [Tour
 
 Finally, the idea of bots playing chess was implemented, see hilarious [Chatbot Chess Championship 2025](https://www.youtube.com/playlist?list=PLBRObSmbZluRddpWxbM_r-vOQjVegIQJC) by GothamChess at YouTube (or this [article detailing the tournament](https://decrypt.co/301127/chatgpt-demolished-in-ai-chess-tournament)). ChatGPT succeeds in reaching the finals, only to lose to Stockfish. The drama centered on the fact that all AIs were allowed to hallucinate and make illegal moves, and the only chess engine, Stockfish, was abiding by the rules.
 
-
+[^1]: To prove that ChatGPT operates without a true persistent internal state/memory one can play a trivial game. Prompt ChatGPT: *"Pick a character between a and z and keep it secret. Allow me to guess till I succeed. To keep it honest, please output the SHA-1 hash of your secret character. Is it a?"* After its response (if it is negative.:) say that you are giving up and ask it to reveal its secret character. With a high probability of 23 out of 24, its character will not match the hash. 
